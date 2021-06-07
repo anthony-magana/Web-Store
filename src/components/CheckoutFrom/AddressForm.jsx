@@ -36,7 +36,7 @@ const AddressForm = ({ checkoutToken, next }) => {
     label: `${sO.description}- (${sO.price.formatted_with_symbol})`,
   }));
 
-  const fetchFhippingCountries = async (checkoutTokenId) => {
+  const fetchShippingCountries = async (checkoutTokenId) => {
     const { countries } = await commerce.services.localeListShippingCountries(
       checkoutTokenId
     );
@@ -63,7 +63,7 @@ const AddressForm = ({ checkoutToken, next }) => {
   };
 
   useEffect(() => {
-    fetchFhippingCountries(checkoutToken.id);
+    fetchShippingCountries(checkoutToken.id);
   }, []);
 
   useEffect(() => {

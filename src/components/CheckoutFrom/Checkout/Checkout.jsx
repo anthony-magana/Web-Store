@@ -10,7 +10,7 @@ import {
   Button,
   CssBaseline,
 } from "@material-ui/core";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { commerce } from "../../../lib/commerce";
 
 import useStyles from "./checkoutStyles";
@@ -25,7 +25,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
   const [shippingData, setShippingData] = useState({});
   const [isFinished, setIsFinished] = useState(false);
   const styles = useStyles();
-  const history = useHistory();
+  // const history = useHistory();
 
   useEffect(() => {
     const generateToken = async () => {
@@ -36,8 +36,8 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
         //console.log(token)
         setCheckoutToken(token);
       } catch (error) {
-        //console.log(error);
-        history.pushState("/");
+        console.log(error);
+        //history.pushState("/");
       }
     };
     generateToken();
