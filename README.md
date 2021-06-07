@@ -1,5 +1,5 @@
 # Web-Store
-This project was created with React.js and utalizes material-ui library for frontend styles, icons, and components while implementing commerce.js 
+This project was created with React.js and utilizes material-ui library for frontend styles, icons, and components while implementing commerce.js 
 to handle the products and its data for the backend. This project also implements Stripe.js for payment processing.
 
 ## Available Scripts
