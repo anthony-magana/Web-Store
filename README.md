@@ -23,16 +23,16 @@ Created with React.js and utilizes material-ui library for frontend styles, icon
 
 ## 🎈 Features
 
-Displays products in a card view with name, description, price and cart button to add to cart.\
-Cart increment when adding products to cart.\
-Cart page that allows user to add more of or delete of a product added to cart with counter all in a card view.\
-Button to remove an entire product added to cart.\
-Listed total price of each product in cart whether multiple items of the same product were added.\
-SubTotal before tax listed at the bottom.\
-Chckout button and button to empty the entire shopping cart at the bottom.\
-Checkout page with shipping address form and back button.\
-Order summary with stripe payment processing button.\
-Confirmation Email with receipt and order number.\
+- Displays products in a card view with name, description, price and cart button to add to cart.
+- Cart increment when adding products to cart.
+- Cart page that allows user to add more of or delete of a product added to cart with counter all in a card view.
+- Button to remove an entire product added to cart.
+- Listed total price of each product in cart whether multiple items of the same product were added.
+- SubTotal before tax listed at the bottom.
+- Chckout button and button to empty the entire shopping cart at the bottom.
+- Checkout page with shipping address form and back button.
+- Order summary with stripe payment processing button.
+- Confirmation Email with receipt and order number.\
 
 ## 🔧 Installation
 
@@ -60,7 +60,7 @@ The build is minified and the filenames include the hashes.\
 
 ### Getting Started
 [Documentation](https://create-react-app.dev/docs/getting-started)\
-Created with\
+Created with
 ```
 npx create-react-app my-app
 cd my-app
