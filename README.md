@@ -3,7 +3,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-![Issues](https://img.shields.io/github/issues/anthony-magana/Web-Store)
+[![Issues](https://img.shields.io/github/issues/anthony-magana/Web-Store)](https://github.com/anthony-magana/Web-Store/pulls)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/anthony-magana/Web-Store.svg)](https://github.com/anthony-magana/Web-Store/pulls)
 
 </div>
